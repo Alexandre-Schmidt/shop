@@ -1,0 +1,12 @@
+Next 
+=> trabalha com File-system Routing: roteamento baseados em arquivos fisicos
+=> Arquivos parametrizados: 
+    Quando queremos criar uma rota no NextJS que receba um parâmetro slug
+    basta colocar o nome entre cochetes [id].tsx
+    para pegar esse valor digitado na url basta usar o useRouter
+=> As fontes são carregadas no arquivo _document.tsx (tudo que tiver lá será carregado em todas as paginas)
+    na tag <Main /> é onde vão os conteudos das paginas como se fosse o root
+    na tag <NextScript /> é onde carrega os javaScripts da pagina
+
+#USEI
+Biblioteca de estilização https://stitches.dev/
