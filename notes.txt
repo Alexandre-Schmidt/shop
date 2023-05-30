@@ -7,6 +7,33 @@ Next
 => As fontes são carregadas no arquivo _document.tsx (tudo que tiver lá será carregado em todas as paginas)
     na tag <Main /> é onde vão os conteudos das paginas como se fosse o root
     na tag <NextScript /> é onde carrega os javaScripts da pagina
+    <style id="stitches" dangerouslySetInnerHTML={{ __html: getCssText() }} />
+       para que o CSS funcione em Server-Side Rendering 
+
+=> Como fazer com que algo rode em SSR: getServerSideProps
+    em qualquer documento na pasta pages vc exporta uma função:
+        export const getServerSideProps = async () => {
+            return {
+                props: {}
+            }
+        }
+    eai o compotente da pagina recebe essa propriedade
+    Obs: Rodando em SSR a pagina só é exibida se tudo for carregado, Não carrega em partes
+    Obs: Usar o getServerSideProps somente para quando o elemento for importante ou seja tem que 
+        ser carregado assim que abre a pagina ou codigo de autenticação, codigo de banco de dados etc.. 
+        dados que não podem ficar visivel para o usuario
+=> para pegar imagem do Stripe:
+    em next.config.js 
+    images: {
+        domains: ['files.stripe.com'],
+    }
+=> Para paginas que não mudam com muita frequencia usa-se: GetStaticProps
 
 #USEI
-Biblioteca de estilização https://stitches.dev/
+=>Biblioteca de estilização https://stitches.dev/
+=>Biblioteca para criar o carrosel https://keen-slider.io/
+=>Stripe
+    npm i stripe
+    senha: @Xandao331833
+    .env.local (salva a chave publica do Stripe - nesse documento coloca as variaveis ambiente, 
+                aquelas que o valor mudam de acordo com o ambiente inserido - Desenvolvimento ou produção por exemplo) 
