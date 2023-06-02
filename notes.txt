@@ -38,8 +38,11 @@ Next
 => Para paginas estaticas que possui paramentro usa-se getStaticPaths como na pagina de produtos que recebe um ID.
     O fallback 'blocking' ele faz com que não mostre nada em tela até ter alguma coisa para mostrar, com isso o usuario fica perdido, pois não aparece nada
     o ideal é usar como 'true' e criar um estado de loading 
+
 => navegação next:
     para melhor performace usa-se o componente Link por volta da ancora. com isso, não carrega tudo do total zero
+
+=> para criar rotas no next, basta criar a pasta api na pasta pages, criar um arquivo ts e exportar a função
 
 
 #USEI
