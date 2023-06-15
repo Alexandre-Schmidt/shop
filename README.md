@@ -43,16 +43,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/hfnMLivdBG9CADpq0F6vT3/Ignite-Shop-%E2%80%A2-Projeto-React-(Copy)?type=design&node-id=4175-92&t=BpPx5mXUpSFOUwXu-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 🚀 Instalação e uso
 
 ```bash
 # Clone o repositório
-git clone https://github.com/Alexandre-Schmidt/to-do.git
+git clone https://github.com/Alexandre-Schmidt/shop.git
 
 # Acesse a pasta do projeto
-cd to-do
+cd shop
 
 # Instale as dependências
 npm install
