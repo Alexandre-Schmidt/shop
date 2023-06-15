@@ -53,3 +53,4 @@ Next
     senha: @Xandao331833
     .env.local (salva a chave publica do Stripe - nesse documento coloca as variaveis ambiente, 
                 aquelas que o valor mudam de acordo com o ambiente inserido - Desenvolvimento ou produção por exemplo) 
+=>Axios
